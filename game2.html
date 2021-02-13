@@ -16,17 +16,11 @@
             <div class="row">
                 <div class="col-3 diceContainer pt-5 pl-3">
                     <div class="setsumei">
-                        <h3>二月十三日会話練習</h3>
-                        <p>（<span class="red">全部日本語で　お願いします！</span>）</p>
-                        <p>かんじょう　する時、どう勘定しますか？(counter)</p>
-                        <p>サイコロを使うために青いボタンをクリックしてください。</p>
-                        <p>選択したキャラクターを動かせる</p>
-                        <div id="pokePlayers">
-                            <img class="player" id="player1" src="photos/ko1.png">
-                            <img class="player" id="player2" src="photos/ko2.png">
-                            <img class="player" id="player3" src="photos/ko3.png">
-                            <img class="player" id="player4" src="photos/ko4.png">
-                        </div>
+                        <h3 class="d-none d-sm-block">二月十三日会話練習</h3>
+                        <p class="d-none d-sm-block">（<span class="red">全部日本語で　お願いします！</span>）</p>
+                        <p class="d-none d-sm-block">かんじょう　する時、どう勘定しますか？(counter)</p>
+                        <p class="d-none d-sm-block">サイコロを使うために青いボタンをクリックしてください。</p>
+                        <p class="d-none d-sm-block">選択したキャラクターを動かせる</p>
                         <h1 class="pt-3" id="saikoro">サイコロ： </h1>
                         <button onclick="rollDie()" type="button" class="btn btn-primary">サイコロをふる</button>
                         <div class="input-group my-3">
@@ -35,13 +29,21 @@
                             </div>
                             <input type="number" class="form-controol" id="nanmentei" value="4">
                         </div>
-                        <p class="pt-5"><span class="gameSelection"><a href="index.html">ホームページに戻る</a></span></p>
+                        <div id="pokePlayers">
+                            <img class="player" id="player1" src="photos/ko1.png">
+                            <img class="player" id="player2" src="photos/ko2.png">
+                            <img class="player" id="player3" src="photos/ko3.png">
+                            <img class="player" id="player4" src="photos/ko4.png">
+                        </div>
+                        <p class="pt-5 d-none d-sm-block"><span class="gameSelection"><a href="index.html">ホームページに戻る</a></span></p>
                     </div>
                 </div>
 
                 <div class="col-9">
                     <div class="board">
                         <img id="game2" src="./photos/game2.png">
+                        <p class="pt-5 d-block d-sm-none"><span class="gameSelection"><a href="index.html">ホームページに戻る</a></span></p>
+                    </div>
                     </div>
                 </div>
             </div>
