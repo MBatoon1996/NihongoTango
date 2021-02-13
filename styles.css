@@ -3,12 +3,22 @@
     text-decoration: underline;
 }
 
+.game,
+#game2,
+#game3 {
+    border: black solid 3px;
+}
+
 .game {
     min-height: 85vh;
 }
 
 #game2 {
     min-height: 100vh;
+}
+
+#game3 {
+    min-height: 90vh;
 }
 
 .gameSelection {
@@ -19,4 +29,12 @@
 .player {
     position: relative;
     z-index: 9;
+}
+
+a {
+    color: inherit;
+}
+
+#body {
+    background-color: #99a7ea;
 }
