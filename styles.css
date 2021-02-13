@@ -7,6 +7,10 @@
     min-height: 85vh;
 }
 
+#game2 {
+    min-height: 100vh;
+}
+
 .gameSelection {
     font-weight: 600;
     font-size: 24px;
