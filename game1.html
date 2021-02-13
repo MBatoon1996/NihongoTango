@@ -14,19 +14,28 @@
     <body>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-3 diceContainer">
-                    <div class="setsumei" class="p-3">
+                <div class="col-3 diceContainer pt-5 pl-3">
+                    <div class="setsumei">
                         <h3>二月十三日会話練習</h3>
                         <p>（<span class="red">全部日本語で　お願いします！</span>）</p>
                         <p>日本語でどう言いますか？（わからない時は　たずねましょう）</p>
-                        <p>サイコロを使ってください。</p>
+                        <p>サイコロを使うためにボタンをクリックしてください。</p>
+                        <p>選択したキャラクターを動かせる</p>
                         <div id="pokePlayers">
                             <img class="player" id="player1" src="photos/ko1.png">
                             <img class="player" id="player2" src="photos/ko2.png">
                             <img class="player" id="player3" src="photos/ko3.png">
                             <img class="player" id="player4" src="photos/ko4.png">
                         </div>
-                        <p><span class="gameSelection"><a href="index.html">ホームページに戻る</a></span></p>
+                        <h1 class="pt-3" id="saikoro">サイコロ： </h1>
+                        <button onclick="rollDie()" type="button" class="btn btn-primary">サイコロをふる</button>
+                        <div class="input-group my-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">何面体のサイコロ</span>
+                            </div>
+                            <input type="number" class="form-controol" id="nanmentei" value="4">
+                        </div>
+                        <p class="pt-5"><span class="gameSelection"><a href="index.html">ホームページに戻る</a></span></p>
                     </div>
                 </div>
 
