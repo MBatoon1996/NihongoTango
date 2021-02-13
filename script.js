@@ -77,3 +77,15 @@ var container = document.querySelector("#pokePlayers");
     }
 
 // ---- DRAGGABLE ----
+function getRandomInt(max) {
+    return Math.floor(Math.random() * Math.floor(max));
+}
+
+
+var rollDie = function() {
+    var faces = $('#nanmentei').val();
+    var mentei = getRandomInt(faces) + 1;
+    $('#saikoro').html('サイコロ： '+ mentei);
+}
+
+//$('#saikoro').html()
