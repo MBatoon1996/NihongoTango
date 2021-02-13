@@ -1,0 +1,18 @@
+.red {
+    color: #DC143C;
+    text-decoration: underline;
+}
+
+.game {
+    min-height: 85vh;
+}
+
+.gameSelection {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.player {
+    position: relative;
+    z-index: 9;
+}

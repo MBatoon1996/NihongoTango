@@ -14,21 +14,27 @@
     <body>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
+                <div class="col-3 diceContainer">
                     <div class="setsumei" class="p-3">
                         <h3>二月十三日会話練習</h3>
-                        <p>今日は会話相手とゲームをしましょう！（<span class="red">全部日本語で　お願いします！</span>）</p>
+                        <p>（<span class="red">全部日本語で　お願いします！</span>）</p>
                         <p>日本語でどう言いますか？（わからない時は　たずねましょう）</p>
                         <p>サイコロを使ってください。</p>
-                        <p>ゲームを選んでください。ゲームの番号をクリックして </p>
-                        <p><span class="gameSelection">１）<a href="game1.html">日本語でどう言いますか？</a></span></p>
+                        <div id="pokePlayers">
+                            <img class="player" id="player1" src="photos/ko1.png">
+                            <img class="player" id="player2" src="photos/ko2.png">
+                            <img class="player" id="player3" src="photos/ko3.png">
+                            <img class="player" id="player4" src="photos/ko4.png">
+                        </div>
+                        <p><span class="gameSelection"><a href="index.html">ホームページに戻る</a></span></p>
                     </div>
                 </div>
 
-                <div class="col-3 diceContainer">
-
+                <div class="col-9">
+                    <div class="board">
+                        <img class="game" src="./photos/game1.png">
+                    </div>
                 </div>
-
             </div>
         </div>
 
